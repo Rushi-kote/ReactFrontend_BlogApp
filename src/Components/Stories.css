@@ -1,0 +1,32 @@
+.grid-container {
+    width: fit-content;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 16px;
+  }
+  
+  .grid-container-side {
+    width: fit-content;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 300px;
+  }
+  
+  .grid-container-side > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 16px;
+  } 

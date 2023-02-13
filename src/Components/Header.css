@@ -1,0 +1,14 @@
+.rotate-text {
+    background-color: #282c34;
+    color: whitesmoke;
+    transform: rotate(-90deg);
+    display: inline-block;
+  }
+  
+  .Shiren-text {
+    background-color: none;
+    color: #282c34;
+    display: inline-block;
+    font-weight: 900;
+  }
+  
