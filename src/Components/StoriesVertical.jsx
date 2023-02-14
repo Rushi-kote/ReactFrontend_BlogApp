@@ -8,7 +8,7 @@ const StoriesVertical = (props) => {
           props.data.Data.map((ele,index)=>{
             return(
               <Fragment key={index}>
-                <div className="grid-item"><img src={ele.Link} width="250" height="200"></img></div>
+                <div className="grid-item"><img src={ele.Link} width="250" height="200" alt='Img'></img></div>
                 <div className="grid-item">
                   
                   {
