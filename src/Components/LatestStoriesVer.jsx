@@ -11,7 +11,7 @@ const LatestStoriesVer = (props) => {
                 props.data.map((ele,index)=>{
                     return(
                     <Fragment key={index}>
-                        <div className="grid-item"><img src={ele.Link} width="250" height="200"></img></div>
+                        <div className="grid-item"><img src={ele.Link} width="250" height="200" alt='Img'></img></div>
                         <div className="grid-item">
                         <h6>Title :{ele.Title}</h6>
                         <p>Production House : {ele.Production_comp}</p>

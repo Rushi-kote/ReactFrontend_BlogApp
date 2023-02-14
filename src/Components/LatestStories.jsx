@@ -11,7 +11,7 @@ const LatestStories = (props) => {
                 props.data.map((ele,index)=>{
                     return (
                         <div className="flex-items" key={index}>
-                            <img width="200px" src={ele.Link} style={{borderRadius:"10px"}}></img> 
+                            <img width="200px" src={ele.Link} style={{borderRadius:"10px"}} alt='Img'></img> 
                             <h3 style={{color:"#808080"}}>{ele.Title}</h3>
                     </div>
                     )

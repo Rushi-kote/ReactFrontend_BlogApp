@@ -14,10 +14,10 @@ const RouteLinks = () => {
   let hollywood = require('../JsonData/Hollywood.json');
   let fitness = require('../JsonData/Fitness.json');
   let technology = require('../JsonData/Technology.json');
-  let [BollyData, SetBollyData] = useState(bollywood);
-  let [HollyData, SetHollyData] = useState(hollywood);
-  let [FitData, SetFitData] = useState(fitness);
-  let [TechData, SetTechData] = useState(technology);
+  let [BollyData] = useState(bollywood);
+  let [HollyData] = useState(hollywood);
+  let [FitData] = useState(fitness);
+  let [TechData] = useState(technology);
   return (
     <ContextData.Provider value={{BollEntries: BollyData,HollEntries:HollyData,FitEntries:FitData,TechEntries:TechData}}>
       <Routes>

@@ -12,7 +12,7 @@ const Stories = (props) => {
           props.Data.map((ele,index)=>{
             return(
               <Fragment key={index}>
-                <div ><img src={ele.Link} width="150" height="150"></img></div>
+                <div ><img src={ele.Link} width="150" height="150" alt='Img'></img></div>
                 <div >
                   <h6>Title :{ele.Title}</h6>
                   {ele.Production_comp == null ?" ": <p>World Wide Gross Income: {ele.WorldWideGross}</p>}
