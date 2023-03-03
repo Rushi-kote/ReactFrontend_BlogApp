@@ -9,6 +9,7 @@ const Home = () => {
   let technology = require('../JsonData/Technology.json');
   let bollywood = require('../JsonData/Bollywood.json');
   let hollywood = require('../JsonData/Hollywood.json');
+  let food = require('../JsonData/Food.json');
   return (
     <div>
       <div className='grid-containerHome'>
@@ -20,7 +21,7 @@ const Home = () => {
       <LatestStories data={technology} Heading="Technology"/>
       <LatestStoriesVer data={bollywood} Heading="Bollywood"/>
       <LatestStoriesVer data={hollywood} Heading="Hollywood"/>
-      
+      <LatestStories data={food} Heading="Food"/>
     </div>
   )
 }

@@ -1,7 +1,16 @@
-import React,{Fragment} from 'react'
-import "./LatestStoreisVer.css"
+import React,{Fragment} from 'react';
+import "./LatestStoreisVer.css";
+import { useNavigate } from 'react-router-dom';
+
 
 const LatestStoriesVer = (props) => {
+  const navigate = useNavigate();
+
+  const handleClick = (eleID,Data) =>{
+    // console.log("EleId  ",eleID);
+    // console.log("Data  ",Data);
+    navigate('/article',{state:{data:Data,eleid:eleID}}); 
+  }
   return (
     <div>
         <h2>Latest {props.Heading} Stories</h2> 
@@ -11,7 +20,7 @@ const LatestStoriesVer = (props) => {
                 props.data.map((ele,index)=>{
                     return(
                     <Fragment key={index}>
-                        <div className="grid-item"><img src={ele.Link} width="250" height="200" alt='Img'></img></div>
+                        <div className="grid-item"><img src={ele.Link} width="250" height="200" alt='Img' onClick={() => handleClick(ele.id,props.data)}></img></div>
                         <div className="grid-item">
                         <h6>Title :{ele.Title}</h6>
                         <p>Production House : {ele.Production_comp}</p>

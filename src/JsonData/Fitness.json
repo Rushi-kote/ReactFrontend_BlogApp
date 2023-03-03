@@ -1,15 +1,21 @@
 [
     {
-      "Title":"Exercise for me is not about running a marathon, it’s about those daily decisions to just go outside.",
-      "Link":"https://dailyburn.com/life/wp-content/uploads/2018/01/Stephanie-Laska.jpg"
+      "id":1,
+      "Title":"Squats",
+      "Link":"https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/articles/health_tools/7_most_effective_exercises_slideshow/webmd_photo_of_trainer_doing_squats.jpg?resize=652px:*&output-quality=100",
+      "Discription":"Why it's a winner: Squats work several muscle groups -- your quadriceps (quads), hamstrings, and gluteals (glutes) -- at the same time. How to: Keep your feet shoulder-width apart and your back straight. Bend your knees and lower your rear as if you were sitting down in a chair. Your weight should be evenly distributed on 3 points of your feet heel, outside ball, inside ball that form a triangle. Your knees won't stay in line with your ankles that way, but there will be less strain on other parts of your body. Add dumbbells once you can do 12 reps with good form."
     },
     {
-      "Title":"It’s about making peace with discomfort, and that translates into everyday life.",
-      "Link":"https://dailyburn.com/life/wp-content/uploads/2018/01/Mike-Ergo.jpg"
+      "id":2,
+      "Title":"Lunges",
+      "Link":"https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/articles/health_tools/7_most_effective_exercises_slideshow/webmd_photo_of_trainer_doing_lunges.jpg?resize=652px:*&output-quality=100",
+      "Discription": "Why it's a winner: Like squats, lunges work all the major muscles of your lower body. They can also improve your balance.      How to: Take a big step forward, keeping your back straight. Bend your front knee to about 90 degrees. Keep weight on your back toes and drop the back knee toward the floor. Don't let the back knee touch the floor."
     },
     {
-      "Title":"I’m comfortable in every part of my skin.",
-      "Link":"https://dailyburn.com/life/wp-content/uploads/2018/01/Felicia-Hall.jpg"
+      "id":3,
+      "Title":"Push-Ups",
+      "Link":"https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/articles/health_tools/7_most_effective_exercises_slideshow/webmd_photo_of_trainer_doing_pushups.jpg?resize=652px:*&output-quality=100",
+      "Discription":"Why it's a winner: Push-ups strengthen your chest, shoulders, triceps, and core muscles. How to: Facing down, place your hands slightly wider than shoulder-width apart. Place your toes on the floor. If that's too hard, start with your knees on the floor. Your body should make a straight line from shoulders to knees or feet. Keep your rear-end muscles and abs engaged. Bend your elbows to lower down until you almost touch the floor. Lift back up by pushing through your elbows, Keep your torso in a straight line throughout the move."
     }
     
   ]

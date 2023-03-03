@@ -5,7 +5,7 @@ import Stories from '../Components/Stories';
 
 const Fitness = () => {
   const Data =useContext(ContextData);
-  console.log(Data.BollEntries);
+  // console.log(Data.BollEntries);
   return (
     <div>Fitness
       <Stories Data={Data.FitEntries}/>

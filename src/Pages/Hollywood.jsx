@@ -5,7 +5,7 @@ import Stories from '../Components/Stories';
 
 const Hollywood = () => {
   const Data =useContext(ContextData);
-  console.log(Data.BollEntries);
+  // console.log(Data.BollEntries);
   return (
     <div>Hollywood
       <Stories Data={Data.HollEntries}/>

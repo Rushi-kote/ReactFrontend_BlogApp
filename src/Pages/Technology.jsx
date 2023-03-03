@@ -5,7 +5,7 @@ import Stories from '../Components/Stories';
 
 const Technology = () => {
   const Data =useContext(ContextData);
-  console.log(Data.BollEntries);
+  // console.log(Data.BollEntries);
   return (
     <div>Technology
       <Stories Data={Data.TechEntries}/>

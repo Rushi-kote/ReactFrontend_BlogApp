@@ -5,10 +5,10 @@ import Stories from '../Components/Stories';
 
 const Food = () => {
   const Data =useContext(ContextData);
-  console.log(Data.BollEntries);
+  // console.log(Data);
   return (
     <div>Food
-      <Stories Data={Data.HollEntries}/>
+      <Stories Data={Data.FoodEntries}/>
     </div>
   )
 }

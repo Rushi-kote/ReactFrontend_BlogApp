@@ -4,9 +4,10 @@ import ContextData from '../Components/ContextApi'
 
 const Bollywood = () => {
   const Data =useContext(ContextData);
-  console.log(Data.BollEntries);
+  // console.log(Data.BollEntries);
   return (
-    <div>Bollywood
+    <div>
+      <h4>Movies</h4>
       <Stories Data={Data.BollEntries}/>
     </div>
   )
