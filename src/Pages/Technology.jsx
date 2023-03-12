@@ -6,7 +6,7 @@ const Technology = () => {
   const [Technology,setTechnology] = useState([{}]);
 
   useEffect(()=>{
-   fetch("http://localhost:3001/technology").then(res=>res.json()).then((data)=>{
+   fetch("https://blogapp-backend-z6hh.onrender.com/technology").then(res=>res.json()).then((data)=>{
      setTechnology(data);
    });
   },[]);
