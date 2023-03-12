@@ -10,7 +10,7 @@ const Food = () => {
   const [Food,setFood] = useState([{}]);
 
   useEffect(()=>{
-   fetch("http://localhost:3001/food").then(res=>res.json()).then((data)=>{
+   fetch("https://blogapp-backend-z6hh.onrender.com/food").then(res=>res.json()).then((data)=>{
      setFood(data);
    });
   },[]);

@@ -10,7 +10,7 @@ const Fitness = () => {
   const [Fitness,setFitness] = useState([{}]);
 
   useEffect(()=>{
-   fetch("http://localhost:3001/fitness").then(res=>res.json()).then((data)=>{
+   fetch("https://blogapp-backend-z6hh.onrender.com/fitness").then(res=>res.json()).then((data)=>{
      setFitness(data);
    });
   },[]);

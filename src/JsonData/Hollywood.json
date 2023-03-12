@@ -1,30 +1,38 @@
 [
     {
+      "id":1,
       "Title":"Top Gun: Maverick",
       "Link":"https://www.the-numbers.com/images/movies/opusdata/Top-Gun-Maverick-(2020).jpg",
       "Production_comp" : "Dharma Productions ,Star Studios,Prime Focus, Starlight Pictures",
       "Distributor" : "Paramount Pictures",
-      "WorldWideGross": "$718,732,821"
+      "WorldWideGross": "$718,732,821",
+      "Discription":"Top Gun: Maverick is a 2022 American action drama film directed by Joseph Kosinski and written by Ehren Kruger, Eric Warren Singer, and Christopher McQuarrie from stories by Peter Craig and Justin Marks. The film is a sequel to the 1986 film Top Gun. Tom Cruise reprises his starring role as the naval aviator Maverick. It was based on the characters of the original film created by Jim Cash and Jack Epps Jr. The film also stars Miles Teller, Jennifer Connelly, Jon Hamm, Glen Powell, Lewis Pullman, Ed Harris and Val Kilmer. In the film, Maverick confronts his past while training a group of younger Top Gun graduates, including the son of his deceased best friend, for a dangerous mission."
     },
     {
+      "id":2,
       "Title":"Black Panther: Wakanda Forever",
       "Link":"https://www.the-numbers.com/images/movies/opusdata/Black-Panther-Wakanda-Forever-(2022).jpg",
       "Production_comp" : "Panorama Studios, Viacom18 Studios, T-Series Films",
       "Distributor" : "Walt Disney",
-      "WorldWideGross": "$828,792,535"
+      "WorldWideGross": "$828,792,535",
+      "Discription":"Black Panther: Wakanda Forever is a 2022 American superhero film based on Marvel Comics featuring the character Shuri / Black Panther. Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures, it is the sequel to Black Panther (2018) and the 30th film in the Marvel Cinematic Universe (MCU). Directed by Ryan Coogler, who co-wrote the screenplay with Joe Robert Cole, the film stars Letitia Wright as Shuri / Black Panther, alongside Lupita Nyong'o, Danai Gurira, Winston Duke, Florence Kasumba, Dominique Thorne, Michaela Coel, Mabel Cadena, Tenoch Huerta Mejía, Martin Freeman, Julia Louis-Dreyfus, and Angela Bassett. In the film, the leaders of Wakanda fight to protect their nation in the wake of King T'Challa's death."
     },
     {
+      "id":3,
       "Title":"Avatar: The Way of Water",
       "Link":"https://www.the-numbers.com/images/movies/opusdata/Avatar-The-Way-of-Water-(2022).jpg",
       "Production_comp" : "20th Century Studios",
       "Distributor" : "20th Century Studios",
-      "WorldWideGross": "$425,527,069"
+      "WorldWideGross": "$425,527,069",
+      "Discription":"Avatar: The Way of Water is a 2022 American epic science fiction film directed and produced by James Cameron. He co-wrote the screenplay with Rick Jaffa and Amanda Silver from a story the trio wrote with Josh Friedman and Shane Salerno. Distributed by 20th Century Studios, it is the sequel to Avatar (2009) and the second installment in the Avatar film series. Cast members Sam Worthington, Zoe Saldaña, Stephen Lang, Joel David Moore, CCH Pounder, Giovanni Ribisi, Dileep Rao, and Matt Gerald reprise their roles from the original film, with Sigourney Weaver returning in an additional role.[6] New cast members include Kate Winslet, Cliff Curtis, Edie Falco, and Jemaine Clement. In the film, Na'vi Jake Sully (Worthington) and his family, under renewed human threat, seek refuge with the Metkayina clan of Pandora."
     },
     {
+      "id":4,
       "Title":"Doctor Strange in the Multiverse of Madness",
       "Link":"https://www.the-numbers.com/images/movies/opusdata/Doctor-Strange-in-the-Multiverse-of-Madness-(2022).jpg",
       "Production_comp" : "Walt Disney",
       "Distributor" : "Walt Disney",
-      "WorldWideGross": "$952,224,986"
+      "WorldWideGross": "$952,224,986",
+      "Discription":"Doctor Strange in the Multiverse of Madness is a 2022 American superhero film based on Marvel Comics featuring the character Doctor Strange. Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures, it is the sequel to Doctor Strange (2016) and the 28th film in the Marvel Cinematic Universe (MCU). The film was directed by Sam Raimi, written by Michael Waldron, and stars Benedict Cumberbatch as Stephen Strange, alongside Elizabeth Olsen, Chiwetel Ejiofor, Benedict Wong, Xochitl Gomez, Michael Stuhlbarg, and Rachel McAdams. In the film, Strange protects America Chavez (Gomez), a teenager capable of traveling the multiverse, from Wanda Maximoff (Olsen)."
     }
   ]

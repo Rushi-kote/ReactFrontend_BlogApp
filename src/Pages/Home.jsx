@@ -1,20 +1,11 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import LatestStories from '../Components/LatestStories'
 import LatestStoriesVer from '../Components/LatestStoriesVer';
 import './Home.css'
 
 
 const Home = () => {
-  // let fitness = require('../JsonData/Fitness.json');
-  // let technology = require('../JsonData/Technology.json');
-  // let bollywood = require('../JsonData/Bollywood.json');
-  // let hollywood = require('../JsonData/Hollywood.json');
-  // let food = require('../JsonData/Food.json');
-  // let fitness ;
-  // let technology;
-  // let bollywood = useRef();
-  // let hollywood;
-  // let food;
+
   const [bollywood,setBollywood] = useState([{}]);
   const [fitness,setFitness] = useState([{}]);
   const [technology,setTechnology] = useState([{}]);
@@ -22,7 +13,7 @@ const Home = () => {
   const [food,setFood] = useState([{}]);
 
   useEffect(()=>{
-    fetch("http://localhost:3001").then(res => res.json()).then(data=>{
+    fetch("https://blogapp-backend-z6hh.onrender.com/").then(res => res.json()).then(data=>{
       setBollywood(data.Bollywood);
       setHollywood(data.Hollywood);
       setTechnology(data.Technology);

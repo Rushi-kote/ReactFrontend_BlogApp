@@ -8,7 +8,7 @@ const Hollywood = () => {
   // console.log(Data.BollEntries);
  useEffect(()=>{
 
-  fetch("http://localhost:3001/hollywood").then(res=>res.json()).then((data)=>{
+  fetch("https://blogapp-backend-z6hh.onrender.com/hollywood").then(res=>res.json()).then((data)=>{
     setHollywood(data);
   });
 
