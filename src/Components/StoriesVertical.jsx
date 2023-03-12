@@ -7,18 +7,18 @@ const StoriesVertical = (props) => {
   const navigate = useNavigate();
 
   const handleClick = (eleID,Data) =>{
-    // console.log("EleId  ",eleID);
+    console.log("EleId  ",eleID);
     // console.log("Data  ",Data);
     navigate('/article',{state:{data:Data,eleid:eleID}}); 
   }
   return (
     <div className="grid-container">
         {
-          props.data.Data.map((ele,index)=>{
+          props.data.Data[props.data.Heading] && props.data.Data[props.data.Heading].map((ele,index)=>{
             return(
               <Fragment key={index}>
                 <div className="grid-item">
-                  <img src={ele.Link} width="250" height="200" alt='Img' onClick={() => handleClick(ele.id,props.data.Data)}></img>
+                  <img src={ele.Link} width="250" height="200" alt='Img' onClick={() => handleClick(ele.id,props.data.Data[props.data.Heading])}></img>
                 </div>
                 <div className="grid-item">
                   

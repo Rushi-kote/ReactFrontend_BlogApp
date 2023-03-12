@@ -30,7 +30,7 @@ const LatestStoriesVer = (props) => {
                     </Fragment>
                     )
                 })
-                // console.log(props)
+                // console.log("props.data==>",props)
                 }
             </div>
         <div className='advertisement'>advertisement</div>

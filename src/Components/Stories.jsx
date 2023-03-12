@@ -12,7 +12,8 @@ const Stories = (props) => {
       <StoriesVertical data={props}/>
       <div className="flex-container">
         {
-          props.Data.map((ele,index)=>{
+          
+          props.Data[props.Heading] && props.Data[props.Heading].map((ele,index)=>{
             return(
               <Fragment key={index}>
                 <div ><img src={ele.Link} width="150" height="150" alt='Img' ></img></div>
@@ -25,6 +26,11 @@ const Stories = (props) => {
               </Fragment>
             )
           })
+          // console.log("Props.data.map  ",props.Data{props.Heading})
+          // console.log(`Props.data ${props}`)
+        
+          // console.log("props.Data[props.Heading]",props.Data[props.Heading]," Props",props.Data)
+         
         }
       </div>
     </>

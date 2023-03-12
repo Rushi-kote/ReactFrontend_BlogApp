@@ -1,14 +1,23 @@
-import React from 'react'
-import { useContext } from 'react';
-import ContextData from '../Components/ContextApi';
+import React, { useEffect, useState } from 'react'
+
 import Stories from '../Components/Stories';
 
 const Hollywood = () => {
-  const Data =useContext(ContextData);
+  // const Data =useContext(ContextData);
+  const [Hollywood,setHollywood] = useState([{}])
   // console.log(Data.BollEntries);
+ useEffect(()=>{
+
+  fetch("http://localhost:3001/hollywood").then(res=>res.json()).then((data)=>{
+    setHollywood(data);
+  });
+
+  // console.log(Hollywood);
+ },[]);
+ 
   return (
     <div>Hollywood
-      <Stories Data={Data.HollEntries}/>
+      <Stories Data={Hollywood} Heading={"Hollywood"}/>
     </div>
   )
 }

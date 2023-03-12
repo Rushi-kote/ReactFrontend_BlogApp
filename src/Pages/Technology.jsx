@@ -1,14 +1,18 @@
 import React from 'react'
-import { useContext } from 'react';
-import ContextData from '../Components/ContextApi';
+import { useState,useEffect } from 'react';
 import Stories from '../Components/Stories';
 
 const Technology = () => {
-  const Data =useContext(ContextData);
-  // console.log(Data.BollEntries);
+  const [Technology,setTechnology] = useState([{}]);
+
+  useEffect(()=>{
+   fetch("http://localhost:3001/technology").then(res=>res.json()).then((data)=>{
+     setTechnology(data);
+   });
+  },[]);
   return (
-    <div>Technology
-      <Stories Data={Data.TechEntries}/>
+    <div>Fitness
+      <Stories Data={Technology} Heading={"Technology"}/>
     </div>
   )
 }

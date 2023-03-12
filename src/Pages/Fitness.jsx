@@ -1,14 +1,22 @@
 import React from 'react'
-import { useContext } from 'react';
-import ContextData from '../Components/ContextApi';
+import { useState,useEffect } from 'react';
+// import ContextData from '../Components/ContextApi';
 import Stories from '../Components/Stories';
 
 const Fitness = () => {
-  const Data =useContext(ContextData);
+  // const Data =useContext(ContextData);
   // console.log(Data.BollEntries);
+  
+  const [Fitness,setFitness] = useState([{}]);
+
+  useEffect(()=>{
+   fetch("http://localhost:3001/fitness").then(res=>res.json()).then((data)=>{
+     setFitness(data);
+   });
+  },[]);
   return (
     <div>Fitness
-      <Stories Data={Data.FitEntries}/>
+      <Stories Data={Fitness} Heading={"Fitness"}/>
     </div>
   )
 }
